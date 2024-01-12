@@ -6,12 +6,12 @@ inputs:
     default: ${{ github.token }}
     required: true
 outputs:
-  url:
-    description: 'The url of the PR'
+  number:
+    description: 'The number of the PR'
   title:
     description: 'The title of the PR'
-  title:
-    description: 'The number of the PR'
+  url:
+    description: 'The url of the PR'
 runs:
   using: 'node16'
   main: 'index.js'
