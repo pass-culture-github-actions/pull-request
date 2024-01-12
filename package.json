@@ -1,0 +1,38 @@
+{
+  "name": "pull-request-url-action",
+  "version": "1.0.0",
+  "description": "Github action used to get the pull-request information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pass-culture-github-actions/pull-request.git"
+  },
+  "keywords": [
+    "pull-request",
+    "pull-request-url",
+    "pull-request-title",
+    "pull-request-number",
+    "url",
+    "title",
+    "number",
+    "pr",
+    "pr-url",
+    "pr-title",
+    "pr-number",
+    "action",
+    "github-actions"
+  ],
+  "author": "Dimitri Kopriwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pass-culture-github-actions/pull-request/issues"
+  },
+  "homepage": "https://github.com/pass-culture-github-actions/pull-request#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.1"
+  }
+}
